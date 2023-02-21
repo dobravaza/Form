@@ -1,0 +1,105 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+.img-responsive {
+	width: 40vw;
+}
+
+.main {
+	display: flex;
+
+	width: 100vw;
+	height: 100vh;
+}
+
+.question {
+	font-weight: 900;
+	color: rgb(76, 0, 255);
+}
+.dumb-text {
+	color: blueviolet;
+	font-size: 1.5rem;
+	padding: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#p1 {
+	color: rgb(87, 86, 86);
+}
+#p3,
+#p2 {
+	font-weight: 900;
+	color: rgb(18, 0, 135);
+	margin-top: 50px;
+}
+.right {
+	background-color: rgb(0, 0, 0);
+	width: 100%;
+}
+#sign {
+	color: rgb(255, 0, 255);
+	font-weight: 700;
+	cursor: pointer;
+}
+
+form {
+	padding: 50px;
+	height: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	gap: 30px;
+}
+button {
+	width: 200px;
+	background-color: transparent;
+	border: 3px solid blue;
+	color: rgb(76, 0, 255);
+	padding: 20px;
+	cursor: pointer;
+}
+button:hover {
+	background-color: blue;
+	color: white;
+	transition: all 0.5s ease;
+}
+
+.input {
+	display: flex;
+	flex-flow: column wrap;
+	width: 40%;
+	font-size: 0.9rem;
+	font-weight: 900;
+	text-transform: uppercase;
+	opacity: 50%;
+	color: rgb(166, 148, 210);
+}
+input {
+	padding: 5px;
+	color: rgb(0, 0, 0);
+	background-color: transparent;
+	border: 1px solid rgb(255, 255, 255);
+}
+.flex {
+	/* background-color: red; */
+	width: 60vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.error {
+	font-weight: 400;
+	font-size: 1rem;
+	color: red;
+	/* border: 1px solid blue; */
+	padding: 5px;
+}
